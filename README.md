@@ -1,0 +1,1 @@
+This is a point counter designed for 3 ball billard game up to 3 player.
