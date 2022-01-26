@@ -23,12 +23,14 @@ body {
     width: 8rem;
     height: 4rem;
     font-size: 2.5rem;
+    font-family: fantasy;
 }
 
 .buttons .decrement {
     width: 8rem;
     height: 4rem;
     font-size: 2.5rem;
+    font-family: fantasy;
 }
 
 .display-count {
