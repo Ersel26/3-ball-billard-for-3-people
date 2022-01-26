@@ -1,8 +1,11 @@
-function upgrade()
+const counts = Array.from(document.querySelectorAll(".counter"));
+
+function increment(n)
 {
-    this.textContent = (parseInt(this.textContent)+1).toString();
+    counts[n].textContent = (parseInt(counts[n].textContent)+1).toString();
 }
 
-const players = document.querySelectorAll(".counter")
-
-players.forEach(player => player.addEventListener("click", upgrade));
+function decrement(n)
+{
+    counts[n].textContent = (parseInt(counts[n].textContent)-1).toString();
+}
